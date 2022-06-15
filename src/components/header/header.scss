@@ -1,0 +1,47 @@
+.header__wrapper {
+  width: 100%;
+  background-color: #262626;
+  color: #fff;
+  padding: .5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header__right {
+    margin-right: 2rem;
+
+    button {
+      padding: .5rem;
+      background-color: #F73D93;
+      border: solid 1px #fff;
+      font-size: 12pt;
+      border-radius: .25rem;
+      color: #fefefe;
+
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    input {
+      background-color: transparent;
+      border: solid 1px #fff;
+      padding: .5rem 1rem;
+      color: #fefefe;
+      border-radius: .25rem;
+      font-size: 12pt;
+      margin-right: .5rem;
+    }
+
+    select {
+      font-size: 11pt;
+      padding: .5rem;
+      background-color: transparent;
+      color: #fefefe;
+      border: solid 1px #fff;
+      border-radius: .25rem;
+      margin-right: .5rem;
+    }
+  }
+}
